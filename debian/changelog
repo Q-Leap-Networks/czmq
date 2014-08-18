@@ -1,0 +1,23 @@
+czmq (2.2.0+git2014.08.18-1ql1) stable; urgency=low
+
+  * Git snapshot from 2014.08.18
+
+ -- Goswin von Brederlow <brederlo@q-leap.de>  Mon, 18 Aug 2014 12:41:22 +0200
+
+czmq (2.2.0-1ql1) precise; urgency=low
+
+  * New upstream version 2.2.0
+
+ -- Goswin von Brederlow <brederlo@q-leap.de>  Mon, 11 Aug 2014 12:17:38 +0200
+
+czmq (2.0.3-1ql1) unstable; urgency=low
+
+  * New upstream version 2.0.3
+
+ -- Goswin von Brederlow <brederlo@q-leap.de>  Thu, 09 Jan 2014 15:28:21 +0100
+
+czmq (1.2.0-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #630761)
+
+ -- Alessandro Ghedini <ghedo@debian.org>  Mon, 06 Aug 2012 21:10:11 +0200
