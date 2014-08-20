@@ -99,19 +99,20 @@ set (czmq_headers
     include/zinterface.h
     include/zlist.h
     include/zloop.h
+    include/zmonitor.h
     include/zmsg.h
     include/zpoller.h
     include/zproxy.h
     include/zrex.h
     include/zsock.h
-    include/zsock_monitor.h
     include/zsock_option.h
     include/zstr.h
     include/zsys.h
     include/zuuid.h
     include/zgossip_msg.h
+    include/zauth_v2.h
     include/zctx.h
-    include/zmonitor.h
+    include/zmonitor_v2.h
     include/zmutex.h
     include/zsocket.h
     include/zsockopt.h
@@ -145,19 +146,20 @@ set (czmq_sources
     src/zinterface.c
     src/zlist.c
     src/zloop.c
+    src/zmonitor.c
     src/zmsg.c
     src/zpoller.c
     src/zproxy.c
     src/zrex.c
     src/zsock.c
-    src/zsock_monitor.c
     src/zsock_option.c
     src/zstr.c
     src/zsys.c
     src/zuuid.c
     src/zgossip_msg.c
+    src/zauth_v2.c
     src/zctx.c
-    src/zmonitor.c
+    src/zmonitor_v2.c
     src/zmutex.c
     src/zsocket.c
     src/zsockopt.c
