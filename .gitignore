@@ -16,7 +16,6 @@ src/Makefile.in
 src/libczmq.pc
 src/platform.hpp
 src/platform.hpp.in
-src/platform.hpp.in~
 src/stamp-h1
 src/*.o
 src/mtrace.txt
@@ -29,7 +28,6 @@ src/.libs/
 src/czmq.la
 src/platform.h
 src/platform.h.in
-src/platform.h.in~
 src/*.lo
 src/malloc.txt
 examples/*.o
@@ -96,6 +94,7 @@ src/test_zgossip
 
 .cproject
 .project
+*~
 debian/autoreconf.after
 debian/autoreconf.before
 debian/files
@@ -106,4 +105,3 @@ debian/libczmq-dbg/
 debian/libczmq-dev/
 debian/libczmq1/
 debian/tmp/
-*~
