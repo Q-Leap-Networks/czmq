@@ -285,6 +285,29 @@ libczmq.so.1 libczmq1 #MINVER#
  zhash_test@Base 1.2.0
  zhash_unpack@Base 2.2.0
  zhash_update@Base 1.2.0
+ zhashring_append@Base 2.2.0+git2014.09.27
+ zhashring_delete@Base 2.2.0+git2014.09.27
+ zhashring_destroy@Base 2.2.0+git2014.09.27
+ zhashring_detach@Base 2.2.0+git2014.09.27
+ zhashring_dup@Base 2.2.0+git2014.09.27
+ zhashring_find@Base 2.2.0+git2014.09.27
+ zhashring_first@Base 2.2.0+git2014.09.27
+ zhashring_insert@Base 2.2.0+git2014.09.27
+ zhashring_item@Base 2.2.0+git2014.09.27
+ zhashring_last@Base 2.2.0+git2014.09.27
+ zhashring_lookup@Base 2.2.0+git2014.09.27
+ zhashring_new@Base 2.2.0+git2014.09.27
+ zhashring_next@Base 2.2.0+git2014.09.27
+ zhashring_prepend@Base 2.2.0+git2014.09.27
+ zhashring_prev@Base 2.2.0+git2014.09.27
+ zhashring_purge@Base 2.2.0+git2014.09.27
+ zhashring_remove@Base 2.2.0+git2014.09.27
+ zhashring_set_comparator@Base 2.2.0+git2014.09.27
+ zhashring_set_destructor@Base 2.2.0+git2014.09.27
+ zhashring_set_duplicator@Base 2.2.0+git2014.09.27
+ zhashring_size@Base 2.2.0+git2014.09.27
+ zhashring_sort@Base 2.2.0+git2014.09.27
+ zhashring_test@Base 2.2.0+git2014.09.27
  ziflist_address@Base 2.2.0+git2014.09.15
  ziflist_broadcast@Base 2.2.0+git2014.09.15
  ziflist_destroy@Base 2.2.0+git2014.09.15
@@ -439,29 +462,20 @@ libczmq.so.1 libczmq1 #MINVER#
  zrex_strerror@Base 2.2.0
  zrex_test@Base 2.2.0
  zrex_valid@Base 2.2.0
- zring_append@Base 2.2.0+git2014.09.15
- zring_delete@Base 2.2.0+git2014.09.15
  zring_destroy@Base 2.2.0+git2014.09.15
+ zring_destroy_one@Base 2.2.0+git2014.09.27
  zring_detach@Base 2.2.0+git2014.09.15
- zring_dup@Base 2.2.0+git2014.09.15
- zring_find@Base 2.2.0+git2014.09.15
  zring_first@Base 2.2.0+git2014.09.15
- zring_goto@Base 2.2.0+git2014.09.24
- zring_insert@Base 2.2.0+git2014.09.15
+ zring_insert_after@Base 2.2.0+git2014.09.27
+ zring_insert_before@Base 2.2.0+git2014.09.27
  zring_item@Base 2.2.0+git2014.09.15
- zring_last@Base 2.2.0+git2014.09.15
- zring_lookup@Base 2.2.0+git2014.09.15
+ zring_move_after@Base 2.2.0+git2014.09.27
+ zring_move_before@Base 2.2.0+git2014.09.27
  zring_new@Base 2.2.0+git2014.09.15
  zring_next@Base 2.2.0+git2014.09.15
- zring_prepend@Base 2.2.0+git2014.09.15
- zring_prev@Base 2.2.0+git2014.09.15
- zring_purge@Base 2.2.0+git2014.09.15
  zring_remove@Base 2.2.0+git2014.09.15
- zring_set_comparator@Base 2.2.0+git2014.09.15
  zring_set_destructor@Base 2.2.0+git2014.09.15
  zring_set_duplicator@Base 2.2.0+git2014.09.15
- zring_size@Base 2.2.0+git2014.09.15
- zring_sort@Base 2.2.0+git2014.09.15
  zring_test@Base 2.2.0+git2014.09.15
  zsock_affinity@Base 2.2.0
  zsock_attach@Base 2.2.0
