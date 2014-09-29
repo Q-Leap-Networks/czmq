@@ -67,6 +67,11 @@ if test "x${CZMQ_GCOV}" == "xyes"; then
     fi
 fi
 
+# Labs coverage
+AC_ARG_WITH(labs, [AS_HELP_STRING([--with-labs=yes/no],
+                  [Compile and test labs subdir too.])],
+                  [CZMQ_LABS="$withval"])
+
 # Check for libzmq library
 libzmq_prefix=detect
 AC_ARG_WITH([libzmq], 
@@ -243,6 +248,7 @@ AM_CONDITIONAL(ON_MINGW, test "x$czmq_on_mingw32" = "xyes")
 AM_CONDITIONAL(ON_ANDROID, test "x$czmq_on_android" = "xyes")
 AM_CONDITIONAL(INSTALL_MAN, test "x$czmq_install_man" = "xyes")
 AM_CONDITIONAL(BUILD_DOC, test "x$czmq_build_doc" = "xyes")
+AM_CONDITIONAL(CZMQ_LABS, test "x$CZMQ_LABS" = "xyes")
 
 # Checks for library functions.
 AC_TYPE_SIGNAL
