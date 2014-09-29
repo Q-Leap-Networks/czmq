@@ -19,6 +19,10 @@ extern "C" {
 #endif
 
 //  @interface
+//  Type for ztimeout
+typedef struct _ztimeout_t ztimeout_t;
+typedef struct _ztimeout_node_t ztimeout_node_t;
+
 //  Trigger function for ztimeout items
 typedef void (ztimeout_trigger_fn) (void **item);
 
