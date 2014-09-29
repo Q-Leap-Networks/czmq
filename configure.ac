@@ -254,5 +254,7 @@ AC_CONFIG_FILES([Makefile \
                 src/libczmq.pc \
                 doc/Makefile \
                 addons/Makefile \
-                model/Makefile])
+                model/Makefile \
+                labs/Makefile \
+                ])
 AC_OUTPUT
