@@ -56,7 +56,10 @@
 */
 
 #include "../include/czmq.h"
-#include "./zpubsub_filter.h"
+#include "zpubsub.h"
+
+#include "zpubsub_option.h"
+#include "zpubsub_filter.h"
 
 
 //  zpubsub_t instances always have this tag as the first 4 octets of

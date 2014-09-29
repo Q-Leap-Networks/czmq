@@ -18,6 +18,8 @@
 extern "C" {
 #endif
 
+#include "zpubsub.h"
+
 //  @interface
 //  Get the currently installed function for calculating port number from
 //  domain id. If NULL, the default implementation in the zpubsub class

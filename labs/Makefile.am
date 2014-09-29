@@ -45,7 +45,10 @@ include_HEADERS = \
 
 libczmq_labs_la_SOURCES = \
     zdlist.c \
-    ztimeout.c
+    ztimeout.c \
+    zpubsub_filter.c \
+    zpubsub_option.c \
+    zpubsub.c
 
 AM_CFLAGS = -g
 AM_CPPFLAGS = -I$(top_srcdir)/include

@@ -19,6 +19,9 @@ extern "C" {
 #endif
 
 //  @interface
+//  Type for the class
+typedef struct _zpubsub_t zpubsub_t;
+
 //  Function to calculate port from domain id
 typedef dbyte (zpubsub_port_fn) (int domain);
 

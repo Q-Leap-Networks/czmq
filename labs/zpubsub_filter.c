@@ -31,7 +31,7 @@
 */
 
 #include "../include/czmq.h"
-#include "./zpubsub_filter.h"
+#include "zpubsub_filter.h"
 
 //  Structure of our class
 
