@@ -29,6 +29,7 @@
 #include "../include/czmq.h"
 #include "zdlist.h"
 #include "ztimeout.h"
+#include "zspeedtest.h"
 #include "zpubsub.h"
 
 int main (int argc, char *argv [])
@@ -43,6 +44,7 @@ int main (int argc, char *argv [])
 
     //  These are ordered from lowest level to highest level
     zdlist_test (verbose);
+    zspeedtest_test (verbose);
     ztimeout_test (verbose);
     zpubsub_test (verbose);
 

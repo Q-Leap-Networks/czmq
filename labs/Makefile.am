@@ -46,6 +46,7 @@ include_HEADERS = \
 libczmq_labs_la_SOURCES = \
     zdlist.c \
     ztimeout.c \
+    zspeedtest.c \
     zpubsub_filter.c \
     zpubsub_option.c \
     zpubsub.c
